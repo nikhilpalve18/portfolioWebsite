@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Nikhil's website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div id="nikhilPalve">
+          <h2>nikhil<span>Palve</span></h2>
+        </div>
+        <ul>
+          <li class="navLinks"><a href="#">Home</a></li>
+          <li class="navLinks"><a href="#">My Skills</a></li>
+          <li class="navLinks"><a href="#">About Me</a></li>
+          <li class="navLinks"><a href="#">Work</a></li>
+          <li class="navLinks"><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+
+      <div class="mainContents">
+        <div class="description">
+          <h1>
+            Hello! <br />
+            I am Nikhil.
+          </h1>
+          <br />
+          <h5>Enthusiastic Web Developer.</h5>
+        </div>
+        <img src="../portfolio/images/nikhilImg.jpeg" alt="" />
+      </div>
+      <button id="hireMe">Hire Me !</button>
+    </div>
+
+    <div class="mySkills">
+      <h1>My Skills</h1>
+      <div id="row1">
+        <img src="../portfolio/images/html.png" alt="" />
+        <img src="../portfolio/images/css.png" alt="" />
+        <img src="../portfolio/images/js.png" alt="" />
+      </div>
+      <div id="row2">
+        <img src="../portfolio/images/Cpp.png" alt="" />
+        <img src="../portfolio/images/git.png" alt="" />
+        <img src="../portfolio/images/sql.png" alt="" />
+      </div>
+    </div>
+
+    <div class="contactMe">
+      <h1>Contact Me</h1>
+      <div class="contactMeForm">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="Email"
+            placeholder="Your email here.."
+          />
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="socialMediaIcons">
+        <a target="_blank" href="https://www.instagram.com/includehappiness/">
+          <img src="../portfolio/images/instagram.png" alt=""
+        /></a>
+        <img src="../portfolio/images/facebook.png" alt="" />
+
+        <img src="../portfolio/images/linkedin.png" alt="" />
+        <img
+          id="twittericon"
+          src="../portfolio/images/twitterLogo.png"
+          alt=""
+        />
+      </div>
+
+      <div class="footerLinks">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Skills</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+
+      <div class="footerCopyRight">
+        Copyright &copy; nikhilPalve. All Rights Reserved
+      </div>
+    </div>
+  </body>
+</html>

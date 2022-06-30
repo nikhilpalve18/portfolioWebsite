@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(../portfolio/images/portfolioBg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 569px;
+  width: 100%;
+  position: relative;
+}
+
+#nikhilPalve {
+  width: 120px;
+  font-size: x-large;
+  color: whitesmoke;
+  margin-left: 150px;
+  position: relative;
+}
+
+#nikhilPalve:hover {
+    transform: scale(1.2);
+}
+
+#nikhilPalve span {
+  color: brown;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar ul {
+  margin-right: 50px;
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.navbar ul li a {
+  color: whitesmoke;
+  display: block;
+  text-decoration: none;
+  padding: 3px 20px;
+  border-radius: 20px;
+}
+
+.navbar ul li a:hover {
+  color: black;
+  background-color: rgb(76, 136, 190);
+}
+
+.mainContents {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  position: relative;
+  left: 400px;
+  top: 40px;
+}
+
+.description {
+  font-size: xx-large;
+  color: rgb(223, 183, 183);
+  position: relative;
+  top: 50px;
+}
+
+.mainContents img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+  top: 80px;
+  right: 30px;
+}
+.mainContents img:hover {
+  transform: scale(1.2);
+}
+
+#hireMe {
+  padding: 10px;
+  width: 8%;
+  color: #fff;
+  background-color: rgb(104, 109, 117);
+  border: none;
+  font-size: large;
+  position: relative;
+  left: 400px;
+  top: 80px;
+}
+
+#hireMe:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.mySkills {
+  height: 550px;
+  width: 100%;
+  background-color: rgb(40, 42, 44);
+}
+
+.mySkills h1 {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: rgb(205, 182, 182);
+}
+
+.mySkills img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.mySkills img:hover {
+  transform: scale(1.2);
+}
+
+#row1,
+#row2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer {
+  background-color: rgb(55, 58, 61);
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.socialMediaIcons {
+  display: flex;
+  width: 400px;
+  position: relative;
+  left: 30rem;
+}
+
+.footer img {
+  height: 23px;
+  width: 23px;
+  margin: 30px;
+}
+.footer img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.footerLinks {
+  width: 50%;
+}
+
+.footer ul {
+  top: -20px;
+  display: flex;
+  position: relative;
+  left: 55%;
+}
+
+.footer ul li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.footer ul li a {
+  color: rgb(199, 184, 184);
+  display: block;
+  text-decoration: none;
+  padding: 3px 20px;
+  border-radius: 20px;
+}
+
+.footer ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.footerCopyRight {
+  font-size: large;
+  width: 30%;
+  position: relative;
+  left: 39%;
+  top: 40px;
+  color: rgb(199, 184, 184);
+}
+
+.contactMe {
+  height: 680px;
+  width: 100%;
+  background-color: rgb(32, 34, 36);
+}
+
+.contactMe h1 {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: rgb(205, 182, 182);
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: rgb(104, 109, 117);
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: large;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.2);
+}
+
+.contactMeForm {
+  position: relative;
+  top: 20px;
+  left: 280px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #909597;
+  padding: 20px;
+}
